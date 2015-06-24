@@ -6,6 +6,7 @@ from nltk.corpus import stopwords
 dir_input = '/home/ubuntu/reactive-seo/data/wikipedia/input'
 dir_output = '/home/ubuntu/reactive-seo/data/wikipedia/output/wiki.tsv'
 page_info = {}
+word_list = {}
 
 openfile = open(dir_output, 'w')
 
@@ -23,6 +24,7 @@ for file in dirs:
             line = line.replace("<title>", "");
             line = line.replace("</title>", "");
             page_info[line] = []
+            word_list = {}
             page_title = line
             print page_title
           elif line.startswith('[[Category:'):
@@ -34,8 +36,13 @@ for file in dirs:
             for word in words:
               if word:
                 if word not in stopwords.words('english'):
-                  if word not in page_info[page_title]:
-                    page_info[page_title].append(word)  
+                  if word_list.has_key(word):
+                    word_list[word] = word_list[word] + 1
+                    if word not in page_info[page_title]:
+                      page_info[page_title].append(word)  
+                      print word
+                  else:
+                    word_list[word] = 1 
           elif line.startswith('</revision>'):
             if len(page_info[page_title]) == 0:
               del page_info[page_title]            
