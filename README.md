@@ -12,10 +12,10 @@ Results:
 
 ![UI](http://reactive-seo.mersal.net/images/screenshot.png)
 
-## Motivation:
+## Motivation
 to help websites not only keep their content current and evolving, but to also keep their meta content current and evolving
 	
-## Use Case(s):
+## Use Case(s)
 any website that wants to keep its meta data up to date with what's currently trending, particularly news outlets which have varied and changing content
 
 ## Data
