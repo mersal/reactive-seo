@@ -34,7 +34,3 @@ for a in root.findall("channel/item/description"):
         fo.write(x + "\t" + a.text + "\t")
         fo.write("\n")
 fo.close()
-
-#if os.path.exists(filename_out):
-#  os.system("hdfs dfs -copyFromLocal -f " + filename_out + " /reactive-seo/data/search-logs/")
-
