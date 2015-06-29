@@ -7,7 +7,7 @@ Results:
 * Enhanced Presentation in Search Results
 * Content Promotion
 
-## Live Demo:
+## Live Demo
 [Reactive SEO Live Demo](http://reactive-seo.mersal.net/ "Reactive SEO Live Demo")
 
 ![UI](http://reactive-seo.mersal.net/images/screenshot.png)
