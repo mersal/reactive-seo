@@ -23,6 +23,7 @@ any website that wants to keep its meta data up to date with what's currently tr
 - [Google Hot Trends - XML](https://www.google.com/trends/hottrends)
 
 # Technology Stack
+- [AWS EC2] (http://aws.amazon.com/ec2/)
 - [AWS HDFS] (https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
 - [Hive] (http://hive.apache.org/)
 - [Presto] (https://prestodb.io/docs/current/index.html)
