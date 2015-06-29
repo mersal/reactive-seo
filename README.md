@@ -10,13 +10,13 @@ Results:
 ## Live Demo:
 [Reactive SEO Live Demo](http://reactive-seo.mersal.net/ "Reactive SEO Live Demo")
 
+![UI](http://reactive-seo.mersal.net/images/screenshot.png)
+
 ## Motivation:
 to help websites not only keep their content current and evolving, but to also keep their meta content current and evolving
 	
 ## Use Case(s):
 any website that wants to keep its meta data up to date with what's currently trending, particularly news outlets which have varied and changing content
-
-![UI](http://reactive-seo.mersal.net/images/screenshot.png)
 
 # Data
 - [Wikipedia Database Dump - XML](https://dumps.wikimedia.org/enwiki/latest/)
