@@ -20,7 +20,7 @@ f = wget.download(url, filename_xml)
 root = ET.parse(f).getroot()
 for a in root.findall("channel/item/title"):
   print "processing trend: " + a.text
-  for num in range(1, random.randrange(10000,50000)):
+  for num in range(1, random.randint(10000,50000)):
     x = str(random.randrange(ts4, ts))
     fo.write(x + "\t" + a.text + "\n")
 for a in root.findall("channel/item/description"):
@@ -28,7 +28,7 @@ for a in root.findall("channel/item/description"):
     print "processing trend: " + a.text
     words = a.text.split(', ')
     for word in words:
-      for num in range(1, random.randrange(10000,50000)):
+      for num in range(1, random.randint(10000,50000)):
         x = str(random.randrange(ts4, ts))
         fo.write(x + "\t" + word + "\n")
 fo.close()
