@@ -31,6 +31,6 @@ for a in root.findall("channel/item/description"):
     for word in words:
       for num in range(1, random.randrange(10000,50000)):
         x = str(random.randrange(ts4, ts))
-        fo.write(x + "\t" + a.text + "\t")
+        fo.write(x + "\t" + word + "\t")
         fo.write("\n")
 fo.close()
