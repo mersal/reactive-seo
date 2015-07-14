@@ -37,10 +37,13 @@ There's some cool graphs too:
 - Trends: bar graph depicting the top 25 trending topics for certain timeframes
 ![UI](http://reactive-seo.mersal.net/images/demo/charts2.png)
 
-
 ## Pipeline
 ![UI](http://reactive-seo.mersal.net/images/demo/pipeline.png)
 
+## Batch Process
+- python scripts used for preprocessing of Google Hot Trends XMl and Wikipedia Monthly Database Dump
+- hive scripts on distributed system used to merge and aggregate the two datasets
+- Presto used for fast lookup for front-end
 
 ## Data
 - [Wikipedia Database Dump - XML](https://dumps.wikimedia.org/enwiki/latest/)
