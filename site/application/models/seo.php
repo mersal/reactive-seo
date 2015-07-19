@@ -103,14 +103,17 @@ class Seo extends CI_Model {
 		}
 		$data["og:url"] = $url;
 		$data["og:type"] = "website";
+		$return_str = '';
 
+		$this->load->library('simplexml');
 		$this->load->library('curl');
 		$this->curl->option(CURLOPT_TIMEOUT, 60); 
 		$this->curl->option(CURLOPT_SSL_VERIFYPEER,false);
-		
-		$this->load->library('simplexml');
-		$return_str = '';
-	
+		$this->curl->option(CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.1) Gecko/20061204 Firefox/2.0.0.1');
+		$this->curl->option(CURLOPT_RETURNTRANSFER, true);
+		$this->curl->option(CURLOPT_CONNECTTIMEOUT, 10);
+		$this->curl->option(CURLOPT_AUTOREFERER, true);
+			
 		$response = $this->curl->simple_get($url);
 		if($response) {
 			$response = str_ireplace("<", "\n<", $response);
