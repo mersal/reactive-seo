@@ -106,6 +106,7 @@ class Seo extends CI_Model {
 
 		$this->load->library('curl');
 		$this->curl->option(CURLOPT_TIMEOUT, 60); 
+		$this->curl->option(CURLOPT_SSL_VERIFYPEER,false);
 		
 		$this->load->library('simplexml');
 		$return_str = '';
