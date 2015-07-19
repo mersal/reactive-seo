@@ -23,22 +23,22 @@ and meta description as:
 These words are matched with related trending topics.  For example, words like 'sports' or 'basketball' would be matched with the Golden State Warriors, LeBron James, etc.
 
 These trending topics are then get appended to the meta content: keywords and open graph description.  So the result is that once static meta content now becomes dynamic and more relevant.
-![UI](http://reactive-seo.mersal.net/images/demo/transform1.png)
+![UI](https://github.com/mersal/reactive-seo/blob/master/images/transform1.png)
 
 Now sharing a link on social media is even more relevant
-![UI](http://reactive-seo.mersal.net/images/demo/updatedfb.png)
+![UI](https://github.com/mersal/reactive-seo/blob/master/images/updatedfb.png)
 
 
 There's some cool graphs too:
 
 - results detail: pie chart illustrating the breakdown of meta term matches to related trending terms
-![UI](http://reactive-seo.mersal.net/images/demo/charts1.png)
+![UI](https://github.com/mersal/reactive-seo/blob/master/images/charts1.png)
 
 - Trends: bar graph depicting the top 25 trending topics for certain timeframes
-![UI](http://reactive-seo.mersal.net/images/demo/charts2.png)
+![UI](https://github.com/mersal/reactive-seo/blob/master/images/charts2.png)
 
 ## Pipeline
-![UI](http://reactive-seo.mersal.net/images/demo/pipeline.png)
+![UI](https://github.com/mersal/reactive-seo/blob/master/images/pipeline.png)
 
 ## Batch Process
 - python scripts used for preprocessing of Google Hot Trends XMl and Wikipedia Monthly Database Dump
