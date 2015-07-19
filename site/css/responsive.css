@@ -1,0 +1,221 @@
+/*@import url("reset.css");*/
+ol, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* GLOBALS */
+a, a:link, a:visited {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+p {
+}
+
+/* HEADER */
+header {
+}
+
+/* Standard Navigation */
+nav {
+    display: block;
+    float: none; /*margin: -15px -12px 0 0;*/
+    z-index: 1000;
+}
+
+nav a.mobile_handle {
+    display: none;
+    z-index: 1000;
+}
+
+nav ul {
+    display: block;
+}
+
+nav ul li {
+    display: inline;
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+nav ul a, nav ul a:link, nav ul a:visited {
+    display: block;
+    float: left;
+/*    padding: 0px 12px 0px 12px; */
+    padding: 0px 48px 0px 48px;
+    margin: 0;
+    line-height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: url(../images/nav_divider.gif) right no-repeat;
+}
+
+nav ul a:hover, nav ul a:active {
+    text-decoration: none;
+}
+
+/* Sub-Nav */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 41px;
+    left: -22px;
+/*    width: 150px; */
+    width: 200px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+nav ul ul li {
+    display: block;
+    float: none;
+    clear: both;
+}
+
+nav ul ul a, nav ul ul a:link, nav ul ul a:visited {
+    display: block;
+    float: none;
+    border: 0; /*padding: 8px 5px;*/
+    margin: 0;
+    color: #222;
+    line-height: 26px;
+    background-image: none;
+}
+
+nav ul ul a:hover, nav ul ul a:active {
+    text-decoration: underline;
+}
+
+/* Third-Level */
+nav ul ul ul {
+    top: 0;
+    left: 125px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 650px) {
+    body {
+    }
+
+    /* Nudge margin-top to leave room for handle */
+    nav {
+        position: relative;
+        float: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #222;
+    }
+
+    nav a.mobile_handle {
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        background: url(../images/nav_bg.jpg) repeat-x;
+        color: #fff;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        position: relative;
+        float: none;
+        padding: 0;
+        margin: 0 !important;
+        background: url(../images/nav_bg.jpg) repeat-x;
+        border-top: 1px solid #000;
+    }
+
+    nav ul a, nav ul a:link, nav ul a:visited {
+        display: block;
+        position: relative;
+        float: none;
+        padding: 10px 10px;
+        clear: both;
+        line-height: 20px;
+        text-align: left;
+        color: #fff;
+    }
+
+    /* Second Level */
+    nav ul ul {
+        display: none;
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin: 0 !Important;
+        padding: 0;
+        background: url(../images/nav_bg.jpg) repeat-x;
+        border: none !Important;
+    }
+
+    nav ul ul a, nav ul ul a:link, nav ul ul a:visited {
+        color: #fff;
+        text-align: left;
+        padding: 7px 10px 7px 35px;
+        border: none;
+    }
+
+    /* Third level */
+    nav ul ul ul {
+        top: 0;
+        left: 0;
+        border: none !Important;
+    }
+
+    nav ul ul ul a, nav ul ul ul a:link, nav ul ul ul a:visited {
+        text-align: left;
+        padding: 7px 10px 7px 55px;
+        color: #fff;
+    }
+
+    nav .sub_nav {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 10%;
+        padding: 15px 20px;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    nav .arrow_up {
+        float: right;
+        width: 0;
+        height: 0;
+        padding: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #fff;
+    }
+
+    nav .arrow_down {
+        float: right;
+        width: 0;
+        height: 0;
+        padding: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #fff;
+    }
+}

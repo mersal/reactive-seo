@@ -1,0 +1,1 @@
+<h3 class="postmargin" style='text-align:center;'><?=$seo_records['error']['curl']?></h3>
