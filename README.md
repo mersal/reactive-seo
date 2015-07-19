@@ -9,7 +9,7 @@ Reactive SEO looks into the often overlooked world of web site meta data.  Most 
 	
 ## Primary Use Case(s)
 News outlets with varying subjects and content, yet usually static meta content, especially on homepages
-![](https://github.com/mersal/reactive-seo/blob/master/images/newsoutlets.png)
+![UI](https://raw.githubusercontent.com/mersal/reactive-seo/master/images/newsoutlets.png)
 
 ## Real-Time Process
 Reactive SEO takes the words found in the meta keyword and description fields, and matches them up with trending topics that are related to these meta terms. For example, for si.com, the meta keywords are extracted as:
