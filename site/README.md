@@ -3,7 +3,9 @@ Reactive SEO
 
 site directory contains files to get a PHP site up and running quickly.
 
-Site uses the [CodeIgniter PHP Framework] (https://ellislab.com/codeigniter/user-guide/)
+Site uses:
 
+- [CodeIgniter PHP Framework] (https://ellislab.com/codeigniter/user-guide/)
+- [D3.js] (http://d3js.org/)
 
 
