@@ -1,5 +1,5 @@
-Reactive SEO
-==============
+Reactive SEO - Front End
+==========================
 
 site directory contains files to get a PHP site up and running quickly.
 
