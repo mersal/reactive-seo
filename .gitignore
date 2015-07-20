@@ -1,2 +1,3 @@
 _notes/**
 site/application/logs/**
+site/application/config/database.php
