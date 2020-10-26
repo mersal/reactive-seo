@@ -4,8 +4,6 @@ Reactive SEO
 Reactive SEO looks into the often overlooked world of web site meta data.  Most sites update their body content daily, yet their meta content is usually stagnant. Reactive SEO is a platform for real-time updating of meta open graph data based on related trending terms. Doing so should enhance content promotion, especially within the social graph.
 
 ## Links
-- [Live Demo](http://reactive-seo.mersal.net/)
-- [Presentation Slides](http://reactive-seo.mersal.net/about)
 	
 ## Primary Use Case(s)
 News outlets with varying subjects and content, yet usually static meta content, especially on homepages
